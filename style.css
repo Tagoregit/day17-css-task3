@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top:100px;
+    left:200px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+.div1{
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.span1{
+    margin-right: 20px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+.div2{
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: palevioletred;
+}
+.footer{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    background-color: aliceblue;
+   display: flex;
+   justify-content: end;
+   /* display: none; */
+} 
+.div3{
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    left:2%;
+    top:20%;
+    transform: translate(-50% -50%);
+    display: flex;
+}
+.d1{
+    width: 230px;
+    height: 100%;
+    background-color: blueviolet;
+
+}
+.d2{
+    width: 120px;
+    height: 100%;
+    background-color: black;
+}
+.d3{
+    width: 50px;
+    height: 100%;
+    background-color: blanchedalmond
+}
+.ion{
+    align-self: center;
+    margin: 30px;
+    font-weight: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.footer:hover.icon{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+.footer:hover{
+    display: none;
+    cursor: pointer;
+}
+
+
+
